@@ -27,7 +27,7 @@ public class VerifyMultiselectFunctionalityOfDropDown extends BaseTest{
 		String [] options = {"Audi","Volvo"};
 		ArrayList<String> selectOptions = Utility.selectOptionFromDropDown(page.getMultiselectDropdownLocator(), options);
 		
-		assertEquals(selectOptions, Arrays.asList("vo","Audi"));
+		assertEquals(selectOptions, Arrays.asList("Volvo","Audi"));
 	}
 	
 	
